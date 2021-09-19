@@ -7,19 +7,29 @@ This is an an analysis of the recent election in Colorado
 ### **Purpose**
 The purpose of this analysis is to provide a report to Colorado Board of Elections based on the recent congressional election as requested by a Board employee. The following information is provided in the report:
 
-   1.Total number of votes cast
-   2. A complete list of candidates who received votes
-   3.Total number of votes each candidate received
-   4.Percentage of votes each candidate won
-   5.The winner of the election based on popular vote
-   6. The list of counties in the election
-   7. The voter turnout of each county
-   8. The percentage of votes from each county 	
-   9. The county with the highest turnout
+- Total number of votes cast
+   
+- A complete list of candidates who received votes
+   
+- Total number of votes each candidate received
+   
+- Percentage of votes each candidate won
+   
+- The winner of the election based on popular vote
+   
+- The list of counties in the election
+    
+- The voter turnout of each county
+   
+- The percentage of votes from each county 
+   	
+- The county with the highest turnout
 
 ## **Resources**
---Data source:election_results.csv
---Software : Python 3.7.6, Visual Studio Code 
+
+- Data source:election_results.csv
+
+- Software : Python 3.7.6, Visual Studio Code 
 	
 ## **Election Audit Results**
 
@@ -27,15 +37,15 @@ The purpose of this analysis is to provide a report to Colorado Board of Electio
 
 As seen above, 
 
--The total number of votes cast in the election is 369,711
+- The total number of votes cast in the election is 369,711
 
--There were 3 candidates, 
+- There were 3 candidates, 
 
 	1.Charles Casper Stockham
 	2.Diana DeGette
 	3.Raymon Anthony Doane
 
--3 counties participated in the election,
+- 3 counties participated in the election,
 
 	1.Jefferson
 	2.Denver
@@ -43,13 +53,13 @@ As seen above,
 
 - The total votes cast in each county and percentage of votes is given below:
 
-	-Jefferson county registered 10.5% of total votes with 38,855 votes
-	-Denver county registered 82.8% of total votes with 306,055 votes
-	-Arapahoe county registered 6.7% of total votes with 24,801 votes
+	- Jefferson county registered 10.5% of total votes with 38,855 votes
+	- Denver county registered 82.8% of total votes with 306,055 votes
+	- Arapahoe county registered 6.7% of total votes with 24,801 votes
 
 - Denver county registered the maximum polls
 
--The candidate results in the election is given below:
+- The candidate results in the election is given below:
   	- Charles Casper Stockham got 23.0% votes with 85,213 votes
   	- Diana DeGette Stockham got 82.8% votes with 306,055 votes
   	- Raymon Anthony Doane Stockham got 6.7% votes with 24,801 votes
@@ -59,8 +69,8 @@ The winner of the election was Diana DeGette Stockham with 82.8% votes and 306,0
 ### **Election Audit Summary**
 ---
 The code used in this program can be used for any election results analysis, if the source file format is similar to the _election_results.csv_ file in which third column contains candidate name and second column contains county name. However, if election analysis needs to be done incorporating more data elements given in source file, modifications can be made in the code while retrieving respective data from source file columns. For example, if there is a column mentioning political party, code can be modified to retrieve the winning party name as follows:
-	-Declare a variable before 'with open' to hold political party name
-	-Within the for loop retrieve the political party name from each row and assign it to a variable (Same way we retrieved candidate name)
-	-Follow similar procedure as we did for getting individual candidate names, vote percentages, number of votes, and winning party
+	- Declare a variable before 'with open' to hold political party name
+	- Within the for loop retrieve the political party name from each row and assign it to a variable (Same way we retrieved candidate name)
+	- Follow similar procedure as we did for getting individual candidate names, vote percentages, number of votes, and winning party
 	
 		-
