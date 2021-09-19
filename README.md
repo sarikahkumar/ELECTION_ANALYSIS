@@ -77,5 +77,5 @@ The code used in this program can be used for any election results analysis, if 
 	
 - Within the for loop retrieve the political party name from each row and assign it to a variable (Same way we retrieved candidate name)
 	
-- Follow similar procedure as we did for getting individual candidate names, vote percentages, number of votes, and winning party
+- Follow similar procedure as we did for getting individual candidate names, vote percentages, number of votes, to determine and print the winning party statistics
 	
