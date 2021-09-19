@@ -2,7 +2,7 @@
 
 ## **Overview of Project**
 ---
-This is an an analysis of the recent election in Colorado
+This is an an analysis of the recent congressional elections held in Colorado
 
 ### **Purpose**
 The purpose of this analysis is to provide a report to Colorado Board of Elections based on the recent congressional election as requested by a Board employee. The following information is provided in the report:
@@ -40,16 +40,16 @@ As seen above,
 - The total number of votes cast in the election is 369,711
 
 - There were 3 candidates, 
-
-	1.Charles Casper Stockham
-	2.Diana DeGette
-	3.Raymon Anthony Doane
+---
+	- Charles Casper Stockham
+	- Diana DeGette
+	- Raymon Anthony Doane
 
 - 3 counties participated in the election,
-
-	1.Jefferson
-	2.Denver
-	3.Arapahoe
+---
+	- Jefferson
+	- Denver
+	- Arapahoe
 
 - The total votes cast in each county and percentage of votes is given below:
 
@@ -69,8 +69,10 @@ The winner of the election was Diana DeGette Stockham with 82.8% votes and 306,0
 ### **Election Audit Summary**
 ---
 The code used in this program can be used for any election results analysis, if the source file format is similar to the _election_results.csv_ file in which third column contains candidate name and second column contains county name. However, if election analysis needs to be done incorporating more data elements given in source file, modifications can be made in the code while retrieving respective data from source file columns. For example, if there is a column mentioning political party, code can be modified to retrieve the winning party name as follows:
+
 	- Declare a variable before 'with open' to hold political party name
+	
 	- Within the for loop retrieve the political party name from each row and assign it to a variable (Same way we retrieved candidate name)
+	
 	- Follow similar procedure as we did for getting individual candidate names, vote percentages, number of votes, and winning party
 	
-		-
