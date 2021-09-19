@@ -1,4 +1,3 @@
-# ELECTION_ANALYSIS
 # **ELECTION ANALYSIS**
 
 ## **Overview of Project**
