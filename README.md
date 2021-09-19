@@ -41,9 +41,9 @@ As seen above,
 
 - There were 3 candidates, 
 ---
-	- Charles Casper Stockham
-	- Diana DeGette
-	- Raymon Anthony Doane
+ - Charles Casper Stockham
+ - Diana DeGette
+ - Raymon Anthony Doane
 
 - 3 counties participated in the election,
 ---
@@ -70,9 +70,9 @@ The winner of the election was Diana DeGette Stockham with 82.8% votes and 306,0
 ---
 The code used in this program can be used for any election results analysis, if the source file format is similar to the _election_results.csv_ file in which third column contains candidate name and second column contains county name. However, if election analysis needs to be done incorporating more data elements given in source file, modifications can be made in the code while retrieving respective data from source file columns. For example, if there is a column mentioning political party, code can be modified to retrieve the winning party name as follows:
 
-	- Declare a variable before 'with open' to hold political party name
+- Declare a variable before 'with open' to hold political party name
 	
-	- Within the for loop retrieve the political party name from each row and assign it to a variable (Same way we retrieved candidate name)
+- Within the for loop retrieve the political party name from each row and assign it to a variable (Same way we retrieved candidate name)
 	
-	- Follow similar procedure as we did for getting individual candidate names, vote percentages, number of votes, and winning party
+- Follow similar procedure as we did for getting individual candidate names, vote percentages, number of votes, and winning party
 	
