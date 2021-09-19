@@ -43,21 +43,21 @@ As seen above,
 
 - There were 3 candidates, 
 
- - Charles Casper Stockham
- - Diana DeGette
- - Raymon Anthony Doane
+  - Charles Casper Stockham
+  - Diana DeGette
+  - Raymon Anthony Doane
 
 - 3 counties participated in the election,
 
- - Jefferson
- - Denver
- - Arapahoe
+  - Jefferson
+  - Denver
+  - Arapahoe
 
 - The total votes cast in each county and percentage of votes is given below:
 
- - Jefferson county registered 10.5% of total votes with 38,855 votes
- - Denver county registered 82.8% of total votes with 306,055 votes
- - Arapahoe county registered 6.7% of total votes with 24,801 votes
+  - Jefferson county registered 10.5% of total votes with 38,855 votes
+  - Denver county registered 82.8% of total votes with 306,055 votes
+  - Arapahoe county registered 6.7% of total votes with 24,801 votes
 
 - Denver county registered the maximum polls
 
