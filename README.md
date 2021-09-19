@@ -3,10 +3,10 @@
 ## **Overview of Project**
 ---
 This is an an analysis of the recent election in Colorado
-### **Purpose**
 
+### **Purpose**
 The purpose of this analysis is to provide a report to Colorado Board of Elections based on the recent congressional election as requested by a Board employee. The following information is provided in the report:
----
+
    1.Total number of votes cast
    2. A complete list of candidates who received votes
    3.Total number of votes each candidate received
@@ -17,9 +17,9 @@ The purpose of this analysis is to provide a report to Colorado Board of Electio
    8. The percentage of votes from each county 	
    9. The county with the highest turnout
 
-## **Resources
-- Data source:election_results.csv
-- Software : Python 3.7.6, Visual Studio Code 
+## **Resources**
+--Data source:election_results.csv
+--Software : Python 3.7.6, Visual Studio Code 
 	
 ## **Election Audit Results**
 
@@ -58,6 +58,9 @@ The winner of the election was Diana DeGette Stockham with 82.8% votes and 306,0
 
 ### **Election Audit Summary**
 ---
-     -The code used in this program can be used for any election results analysis if the source file format is similar to the election_results.csv file in which 3 column is candidate name and 2 column is county name
-     -If election analysis needs to be done incorporating more data elements given in source file, modifications can be made in the code while retrieving respective data from source file columns
+The code used in this program can be used for any election results analysis, if the source file format is similar to the _election_results.csv_ file in which third column contains candidate name and second column contains county name. However, if election analysis needs to be done incorporating more data elements given in source file, modifications can be made in the code while retrieving respective data from source file columns. For example, if there is a column mentioning political party, code can be modified to retrieve the winning party name as follows:
+	-Declare a variable before 'with open' to hold political party name
+	-Within the for loop retrieve the political party name from each row and assign it to a variable (Same way we retrieved candidate name)
+	-Follow similar procedure as we did for getting individual candidate names, vote percentages, number of votes, and winning party
+	
 		-
