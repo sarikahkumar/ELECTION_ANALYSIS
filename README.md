@@ -36,7 +36,7 @@ The purpose of this analysis is to provide a report to Colorado Board of Electio
 ## **Election Audit Results**
 
 ![election_results file](https://user-images.githubusercontent.com/89427676/133938175-11f7e555-0893-46b2-b8e8-cbeb5798fff6.png)
-_The results of the election has been written to a text file named election_results.txt by the program. The code used to generate results is saved in this repository as PyPoll_rChallenge_starte_code.py, and the output file is saved in the analysis folder of this repository_
+_The results of the election has been written to a text file named election_results.txt by the program. The code used to generate results is saved in this repository as PyPoll_Challenge_starter_code.py, and the output file is saved in the analysis folder of this repository_
 
 As seen above, 
 
