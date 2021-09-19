@@ -37,6 +37,7 @@ The purpose of this analysis is to provide a report to Colorado Board of Electio
 
 ![election_results file](https://user-images.githubusercontent.com/89427676/133938175-11f7e555-0893-46b2-b8e8-cbeb5798fff6.png)
 _The results of the election has been written to a text file named election_results.txt by the program. The code used to generate results, and the output file is saved in the Resuorces folder of this repository_
+
 As seen above, 
 
 - The total number of votes cast in the election is 369,711
