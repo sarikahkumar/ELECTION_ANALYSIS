@@ -66,7 +66,7 @@ As seen above,
   - Diana DeGette Stockham got 82.8% votes with 306,055 votes
   - Raymon Anthony Doane Stockham got 6.7% votes with 24,801 votes
 
-- The winner of the election was** Diana DeGette Stockham** with **82.8%** votes and **306,055** votes
+- The winner of the election was **Diana DeGette Stockham** with **82.8%** votes and **306,055** votes
 ---
 ### **Election Audit Summary**
 
